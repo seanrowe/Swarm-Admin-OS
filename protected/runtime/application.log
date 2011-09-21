@@ -1,0 +1,544 @@
+2011/09/18 12:03:28 [error] [php] Undefined variable: modules (/web/projects/swarmcms.com/protected/views/site/index.php:16)
+Stack trace:
+#0 /web/projects/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /web/projects/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /web/projects/swarmcms.com/protected/controllers/SiteController.php(38): SiteController->render()
+#3 /web/projects/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /web/projects/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /web/projects/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /web/projects/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /web/projects/swarmcms.com/index.php(12): CWebApplication->run()
+REQUEST_URI=/
+2011/09/18 12:06:50 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:06:50 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:06:50 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:06:50 [error] [php] Undefined variable: modules (/web/projects/swarmcms.com/protected/views/site/index.php:16)
+Stack trace:
+#0 /web/projects/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /web/projects/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /web/projects/swarmcms.com/protected/controllers/SiteController.php(38): SiteController->render()
+#3 /web/projects/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /web/projects/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /web/projects/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /web/projects/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /web/projects/swarmcms.com/index.php(12): CWebApplication->run()
+REQUEST_URI=/
+2011/09/18 12:06:50 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:07:10 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:07:10 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:07:10 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:07:10 [error] [php] Undefined variable: modules (/web/projects/swarmcms.com/protected/views/site/index.php:16)
+Stack trace:
+#0 /web/projects/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /web/projects/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /web/projects/swarmcms.com/protected/controllers/SiteController.php(39): SiteController->render()
+#3 /web/projects/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /web/projects/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /web/projects/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /web/projects/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /web/projects/swarmcms.com/index.php(12): CWebApplication->run()
+REQUEST_URI=/
+2011/09/18 12:07:10 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:07:34 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:07:34 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:07:34 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:07:34 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 12:07:34 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:07:34 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:07:34 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:07:35 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:07:35 [error] [exception.Exception] exception 'Exception' with message 'File not found: /css/reset.css' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(39): Minify->run('css', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionCss()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('css')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/css')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/css&page=home/index
+2011/09/18 12:07:35 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:07:35 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:07:35 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:07:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:07:35 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:07:35 [error] [exception.Exception] exception 'Exception' with message 'File not found: /js/lib/jquery.min.js' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(23): Minify->run('js', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionJs()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('js')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/js')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/js&page=home/index
+2011/09/18 12:07:35 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:07:38 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:07:38 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:07:38 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:07:38 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 12:07:40 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:07:40 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:07:40 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:07:40 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:07:40 [error] [exception.Exception] exception 'Exception' with message 'File not found: /css/reset.css' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(39): Minify->run('css', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionCss()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('css')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/css')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/css&page=home/index
+2011/09/18 12:07:40 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:09:35 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:09:35 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:09:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:09:35 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:09:35 [error] [exception.Exception] exception 'Exception' with message 'File not found: /web/projects/swarmcms.com/protected/css/reset.css' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(39): Minify->run('css', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionCss()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('css')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/css')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/css&page=home/index
+2011/09/18 12:09:35 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:11:25 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:11:25 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:11:25 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:11:25 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:11:25 [error] [exception.Exception] exception 'Exception' with message 'File not found: /web/projects/swarmcms.com/protected/css/reset.css' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(39): Minify->run('css', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionCss()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('css')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/css')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/css&page=home/index
+2011/09/18 12:11:25 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:11:45 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:11:45 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:11:45 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:11:45 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:11:46 [trace] [system.caching.CFileCache] Saving "7e665dc5de53166c057ea1c7850026f2" to cache
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:11:56 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:11:56 [error] [exception.Exception] exception 'Exception' with message 'File not found: /web/projects/swarmcms.com/js/lib/jquery.min.js' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(23): Minify->run('js', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionJs()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('js')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/js')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/js&page=home/index
+2011/09/18 12:11:56 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:12:21 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:12:21 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:12:21 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:12:21 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:12:22 [error] [exception.Exception] exception 'Exception' with message 'File not found: /web/projects/swarmcms.com/js/lib/jquery.min.js' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(23): Minify->run('js', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionJs()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('js')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/js')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/js&page=home/index
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:12:22 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:12:22 [trace] [system.caching.CFileCache] Saving "7e665dc5de53166c057ea1c7850026f2" to cache
+2011/09/18 12:12:33 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:12:33 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:12:33 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:12:33 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 12:12:36 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:12:36 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:12:36 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:12:36 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:12:36 [error] [exception.Exception] exception 'Exception' with message 'File not found: /web/projects/swarmcms.com/js/lib/jquery.min.js' in /web/projects/swarmcms.com/protected/classes/Minify.php:133
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/controllers/MinifyController.php(23): Minify->run('js', 'home/index')
+#1 /web/projects/yii/framework/web/actions/CInlineAction.php(50): MinifyController->actionJs()
+#2 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#4 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('js')
+#6 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('minify/js')
+#7 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#9 {main} REQUEST_URI=/?r=minify/js&page=home/index
+2011/09/18 12:12:36 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 12:12:58 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:12:58 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:12:58 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:12:58 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:12:58 [trace] [system.caching.CFileCache] Saving "d2761c3c18c69036989f64c8d2a0a3cb" to cache
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:13:04 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:13:04 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 12:13:04 [trace] [system.caching.CFileCache] Saving "7e665dc5de53166c057ea1c7850026f2" to cache
+2011/09/18 12:16:08 [trace] [system.CModule] Loading "log" application component
+2011/09/18 12:16:08 [trace] [system.CModule] Loading "request" application component
+2011/09/18 12:16:08 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 12:16:08 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "log" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "request" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "log" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "request" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 14:18:02 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "log" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "request" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 14:18:02 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 14:18:02 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/18 16:04:57 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:04:57 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:04:57 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:04:57 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:04:58 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:04:58 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:04:58 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:05:30 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:05:30 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:05:30 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:06:21 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:06:21 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:06:21 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:06:45 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "log" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "request" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 16:06:45 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 16:06:45 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 23:13:50 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:13:50 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 23:13:50 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/18 23:17:16 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:17:16 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:17:16 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:17:16 [error] [php] Use of undefined constant self - assumed 'self' (/web/projects/swarmcms.com/protected/components/MongoModel.php:59)
+Stack trace:
+#0 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#1 /web/projects/yii/framework/web/CController.php(278): SiteController->runAction()
+#2 /web/projects/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#3 /web/projects/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#4 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#5 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /web/projects/swarmcms.com/index.php(12): CWebApplication->run()
+REQUEST_URI=/
+2011/09/18 23:17:16 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 23:20:49 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:20:49 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:20:49 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:20:49 [trace] [system.CModule] Loading "coreMessages" application component
+2011/09/18 23:20:49 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "log".' in /web/projects/yii/framework/base/CComponent.php:269
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/components/MongoModel.php(127): CComponent->__call('log', Array)
+#1 /web/projects/swarmcms.com/protected/components/MongoModel.php(127): CWebApplication->log('Couldn't authen...', 'error', 'system.db.Mongo...')
+#2 /web/projects/swarmcms.com/protected/models/ModuleModel.php(32): MongoModel->__construct()
+#3 /web/projects/swarmcms.com/protected/controllers/SiteController.php(38): ModuleModel::instance()
+#4 /web/projects/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#5 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#6 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#7 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('')
+#9 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#10 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#12 {main} REQUEST_URI=/
+2011/09/18 23:20:49 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 23:22:14 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:22:14 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:22:14 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:22:14 [trace] [system.CModule] Loading "coreMessages" application component
+2011/09/18 23:22:14 [error] [exception.CException] exception 'CException' with message 'CLogRouter and its behaviors do not have a method or closure named "log".' in /web/projects/yii/framework/base/CComponent.php:269
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/components/MongoModel.php(127): CComponent->__call('log', Array)
+#1 /web/projects/swarmcms.com/protected/components/MongoModel.php(127): CLogRouter->log('Couldn't authen...', 'error', 'system.db.Mongo...')
+#2 /web/projects/swarmcms.com/protected/models/ModuleModel.php(32): MongoModel->__construct()
+#3 /web/projects/swarmcms.com/protected/controllers/SiteController.php(38): ModuleModel::instance()
+#4 /web/projects/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#5 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#6 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#7 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('')
+#9 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#10 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#12 {main} REQUEST_URI=/
+2011/09/18 23:22:14 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 23:23:05 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:23:05 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:23:05 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:23:05 [error] [system.db.MongoModel] Couldn't authenticate with database swarm: username [root], password [Sup3rfly]
+2011/09/18 23:23:05 [error] [exception.Exception] exception 'Exception' with message 'There was an issue connecting to the database' in /web/projects/swarmcms.com/protected/components/MongoModel.php:128
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/models/ModuleModel.php(32): MongoModel->__construct()
+#1 /web/projects/swarmcms.com/protected/controllers/SiteController.php(38): ModuleModel::instance()
+#2 /web/projects/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#3 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#4 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('')
+#7 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#8 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#10 {main} REQUEST_URI=/
+2011/09/18 23:23:05 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 23:26:18 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:26:18 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:26:18 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:26:18 [error] [system.db.MongoModel] Couldn't authenticate with database swarm: username [root], password [Sup3rfly]
+2011/09/18 23:26:18 [error] [exception.Exception] exception 'Exception' with message 'There was an issue connecting to the database' in /web/projects/swarmcms.com/protected/components/MongoModel.php:128
+Stack trace:
+#0 /web/projects/swarmcms.com/protected/models/ModuleModel.php(32): MongoModel->__construct()
+#1 /web/projects/swarmcms.com/protected/controllers/SiteController.php(38): ModuleModel::instance()
+#2 /web/projects/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#3 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#4 /web/projects/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /web/projects/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /web/projects/yii/framework/web/CWebApplication.php(277): CController->run('')
+#7 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#8 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /web/projects/swarmcms.com/index.php(12): CApplication->run()
+#10 {main} REQUEST_URI=/
+2011/09/18 23:26:18 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 23:28:47 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:28:48 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:28:48 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:28:48 [error] [php] Argument 1 passed to MongoModel::find() must be an array, none given, called in /web/projects/swarmcms.com/protected/controllers/SiteController.php on line 38 and defined (/web/projects/swarmcms.com/protected/components/MongoModel.php:227)
+Stack trace:
+#0 /web/projects/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#1 /web/projects/yii/framework/web/CController.php(278): SiteController->runAction()
+#2 /web/projects/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#3 /web/projects/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#4 /web/projects/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#5 /web/projects/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /web/projects/swarmcms.com/index.php(12): CWebApplication->run()
+REQUEST_URI=/
+2011/09/18 23:28:48 [trace] [system.CModule] Loading "errorHandler" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 23:38:11 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "log" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "request" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/18 23:38:11 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/18 23:38:11 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/19 10:04:32 [trace] [system.CModule] Loading "log" application component
+2011/09/19 10:04:32 [trace] [system.CModule] Loading "request" application component
+2011/09/19 10:04:32 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "log" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "request" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/19 10:04:33 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "log" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "request" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 10:04:33 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/19 10:04:33 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/19 15:56:05 [trace] [system.CModule] Loading "log" application component
+2011/09/19 15:56:05 [trace] [system.CModule] Loading "request" application component
+2011/09/19 15:56:05 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "log" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "request" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/19 15:56:06 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "log" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "request" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 15:56:06 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/19 15:56:06 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "log" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "request" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "log" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "request" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/19 20:10:34 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "log" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "request" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/19 20:10:34 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/19 20:10:34 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/21 09:50:58 [trace] [system.CModule] Loading "log" application component
+2011/09/21 09:50:58 [trace] [system.CModule] Loading "request" application component
+2011/09/21 09:50:58 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "log" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "request" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 09:51:00 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "log" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "request" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 09:50:59 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 09:51:00 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 12:01:35 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:01:35 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 12:01:35 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 12:03:35 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:03:35 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 12:03:35 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "clientScript" application component
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:03:46 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 12:03:46 [trace] [system.caching.CFileCache] Serving "7e665dc5de53166c057ea1c7850026f2" from cache
+2011/09/21 12:03:47 [trace] [system.CModule] Loading "log" application component
+2011/09/21 12:03:47 [trace] [system.CModule] Loading "request" application component
+2011/09/21 12:03:47 [trace] [system.CModule] Loading "urlManager" application component
+2011/09/21 12:03:47 [trace] [system.CModule] Loading "fileCache" application component
+2011/09/21 12:03:47 [trace] [system.caching.CFileCache] Serving "d2761c3c18c69036989f64c8d2a0a3cb" from cache

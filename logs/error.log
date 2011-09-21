@@ -1,0 +1,237 @@
+[Sun Sep 18 11:31:42 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/serve
+[Sun Sep 18 11:33:42 2011] [error] [client 76.125.113.175] PHP Warning:  require_once(/web/projects/swarmcms.com/../../framework/yii.php): failed to open stream: No such file or directory in /web/projects/swarmcms.com/index.php on line 10
+[Sun Sep 18 11:33:42 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:33:42 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:33:42 2011] [error] [client 76.125.113.175] PHP Fatal error:  require_once(): Failed opening required '/web/projects/swarmcms.com/../../framework/yii.php' (include_path='.:/usr/share/php:/usr/share/pear') in /web/projects/swarmcms.com/index.php on line 10
+[Sun Sep 18 11:33:42 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:33:42 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:33:44 2011] [error] [client 76.125.113.175] PHP Warning:  require_once(/web/projects/swarmcms.com/../../framework/yii.php): failed to open stream: No such file or directory in /web/projects/swarmcms.com/index.php on line 10
+[Sun Sep 18 11:33:44 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:33:44 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:33:44 2011] [error] [client 76.125.113.175] PHP Fatal error:  require_once(): Failed opening required '/web/projects/swarmcms.com/../../framework/yii.php' (include_path='.:/usr/share/php:/usr/share/pear') in /web/projects/swarmcms.com/index.php on line 10
+[Sun Sep 18 11:33:44 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:33:44 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:11
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:55:52 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(11): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:11
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:56:31 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(11): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:11
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:57:37 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(11): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:11
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:58:13 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(11): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:10
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:58:31 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(10): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:10
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:58:34 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(10): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:10
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:58:59 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(10): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:10
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:59:08 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(10): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:10
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 11:59:13 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(10): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:10
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 12:00:02 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(10): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP Notice:  Use of undefined constant DS - assumed 'DS' in /web/projects/swarmcms.com/protected/config/main.php on line 8
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP Stack trace:
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP   2. YiiBase::createWebApplication() /web/projects/swarmcms.com/index.php:10
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP   3. YiiBase::createApplication() /web/projects/yii/framework/YiiBase.php:100
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP   4. CApplication->__construct() /web/projects/yii/framework/YiiBase.php:128
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP   5. require() /web/projects/yii/framework/base/CApplication.php:123
+[Sun Sep 18 12:00:22 2011] [error] [client 76.125.113.175] PHP Fatal error:  Uncaught exception 'CException' with message 'Application base path "/web/projects/swarmcms.com/protected/configDS.." is not a valid directory.' in /web/projects/yii/framework/base/CApplication.php:240\nStack trace:\n#0 /web/projects/yii/framework/base/CApplication.php(126): CApplication->setBasePath('/web/projects/s...')\n#1 /web/projects/yii/framework/YiiBase.php(128): CApplication->__construct('/web/projects/s...')\n#2 /web/projects/yii/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/web/projects/s...')\n#3 /web/projects/swarmcms.com/index.php(10): YiiBase::createWebApplication('/web/projects/s...')\n#4 {main}\n  thrown in /web/projects/yii/framework/base/CApplication.php on line 240
+[Sun Sep 18 12:11:56 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/img, referer: http://seanrowe.dyndns.org/
+[Sun Sep 18 12:11:56 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/img, referer: http://seanrowe.dyndns.org/
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP Fatal error:  Using $this when not in object context in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 57
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] PHP  10. MongoModel::instance() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Sun Sep 18 23:13:31 2011] [error] [client 192.168.0.146] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP Fatal error:  Using $this when not in object context in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 57
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:14:35 2011] [error] [client 192.168.0.146] PHP  10. MongoModel::instance() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP Fatal error:  Using $this when not in object context in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 57
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:15:25 2011] [error] [client 192.168.0.146] PHP  10. MongoModel::instance() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP Fatal error:  Using $this when not in object context in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 57
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:16:01 2011] [error] [client 192.168.0.146] PHP  10. MongoModel::instance() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP Fatal error:  Cannot instantiate abstract class MongoModel in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 60
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:16:16 2011] [error] [client 192.168.0.146] PHP  10. MongoModel::instance() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP Fatal error:  Call to undefined method MongoDB::find() in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 229
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:30:23 2011] [error] [client 192.168.0.146] PHP  10. MongoModel->find() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP Fatal error:  Call to undefined method MongoDB::find() in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 229
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:30:41 2011] [error] [client 192.168.0.146] PHP  10. MongoModel->find() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP Fatal error:  Call to undefined method MongoDB::find() in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 229
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:33:55 2011] [error] [client 192.168.0.146] PHP  10. MongoModel->find() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP Fatal error:  Call to undefined method MongoDB::find() in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 229
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:34:20 2011] [error] [client 192.168.0.146] PHP  10. MongoModel->find() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP Fatal error:  Call to undefined method MongoDB::find() in /web/projects/swarmcms.com/protected/components/MongoModel.php on line 229
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP Stack trace:
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   1. {main}() /web/projects/swarmcms.com/index.php:0
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   2. CApplication->run() /web/projects/swarmcms.com/index.php:12
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   3. CWebApplication->processRequest() /web/projects/yii/framework/base/CApplication.php:158
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   4. CWebApplication->runController() /web/projects/yii/framework/web/CWebApplication.php:136
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   5. CController->run() /web/projects/yii/framework/web/CWebApplication.php:277
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   6. CController->runActionWithFilters() /web/projects/yii/framework/web/CController.php:257
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   7. CController->runAction() /web/projects/yii/framework/web/CController.php:278
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   8. CInlineAction->runWithParams() /web/projects/yii/framework/web/CController.php:300
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP   9. SiteController->actionIndex() /web/projects/yii/framework/web/actions/CInlineAction.php:50
+[Sun Sep 18 23:35:34 2011] [error] [client 192.168.0.146] PHP  10. MongoModel->find() /web/projects/swarmcms.com/protected/controllers/SiteController.php:38
+[Mon Sep 19 10:04:35 2011] [error] [client 192.168.0.146] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Mon Sep 19 15:56:07 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Mon Sep 19 15:56:07 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Wed Sep 21 12:01:37 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Wed Sep 21 12:01:37 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Wed Sep 21 12:03:30 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/admin
+[Wed Sep 21 12:04:07 2011] [error] [client 84.111.181.126] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Wed Sep 21 12:04:07 2011] [error] [client 84.111.181.126] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Wed Sep 21 12:04:08 2011] [error] [client 84.111.181.126] File does not exist: /web/projects/swarmcms.com/favicon.ico
+[Wed Sep 21 12:05:43 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/web
+[Wed Sep 21 12:05:47 2011] [error] [client 76.125.113.175] File does not exist: /web/projects/swarmcms.com/web

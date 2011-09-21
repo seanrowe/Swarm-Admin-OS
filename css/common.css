@@ -1,0 +1,145 @@
+@CHARSET "ISO-8859-1";
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	height: 100%;
+	background-color: #eeeeee;
+}
+
+.field {
+	padding-bottom: 7px;
+}
+	.field-label {
+		font-size: 14px;
+	}
+
+	.field-body {
+		height: 100%;
+	}
+
+label.error {
+	color: red !important;
+}
+
+h3.form-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 35px;
+}
+
+.form-close-window {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.form-top-buttons {
+	float: right;
+}
+
+div.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.rounded-corners, .ui-corner-all {
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.rounded-corners-bottom {
+	-moz-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -khtml-border-bottom-right-radius: 8px;
+    -khtml-border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.lightbox {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: transparent;
+	background-image: url("http://cdn.formspring.me/images/popover/shadow-fsv15757189.png");
+}
+
+.lightbox-inside {
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  border-color: rgba(41, 41, 41, 0.4);
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+  padding: 20px;
+}
+
+input[type="text"], textarea, input[type="password"] {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-color: #B8B8B8;
+  border-style: solid;
+  font-size: 14px;
+  padding: 8px 15px;
+  width: 90%;
+}
+
+.button-grey {
+  background: none repeat scroll 0 0 #DEDEDE;
+  border-color: #B8B8B8;
+  border-style: solid;
+  color: #3D3D3D;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.form-left {
+	float: left;
+}
+
+.form-help {
+	float: right;
+	background-color: #fffdd8;
+}
+a {
+	color: #005ccc;
+	outline-style: none;
+	outline-width: medium;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.circle {
+	background: none repeat scroll 0 0 #333333;
+	border-radius: 20px 20px 20px 20px;
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+
+.ui-icon {
+	background-image: url('/images/ui-icons_ffffff_256x240.png') !important;
+}
